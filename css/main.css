@@ -4,15 +4,22 @@
 	-ms-box-sizing: border-box; 
 	box-sizing: border-box; /* This makes box changes work for both border & padding properties */
 }	
+.header__inner {
+	max-width: 75px;
+}
+.header__outer {
+	text-align: right;
+}
+
 .grid {
 	margin: 0 auto; 
 }
-.container {
+header {
 }
+
 .row {
 	width: 100%; 
-	display: flex; 
-	flex-wrap: wrap; 
+	display: flex;
 }
 .col-1 {
 	width: 8.33%;
