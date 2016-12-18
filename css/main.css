@@ -8,7 +8,9 @@
 	max-width: 75px;
 }
 .header__outer {
+	text-transform: uppercase;
 	text-align: right;
+	font-family: 'Roboto', sans-serif;
 }
 
 .grid {
@@ -61,3 +63,9 @@
 		width: 100%;
 	}
 }
+
+@media screen and (min-width: 800px) {
+	.container {
+		width: 800px;
+		justify-content: center;
+		margin: 0 auto;
