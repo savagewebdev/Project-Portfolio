@@ -14,8 +14,6 @@
 .grid {
 	margin: 0 auto; 
 }
-header {
-}
 
 .row {
 	width: 100%; 
@@ -56,4 +54,10 @@ header {
 }
 .col-12 {
 	width: 100%;
+}
+
+@media screen and (min-width: 450px){
+	.item {
+		width: 100%;
+	}
 }
