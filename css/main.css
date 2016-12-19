@@ -36,12 +36,13 @@
 	list-style-type: none;
 	display: flex;
 	padding: 0;
+	margin: 0;
 }
 
 .photos {
 	height: auto;
-	max-width: 235px;
-	display: calc((100% - 70px)/3);
+	max-width: 260px;
+	display: calc((100% - 10px)/3);
 }
 
 .item__one, .item__two {
