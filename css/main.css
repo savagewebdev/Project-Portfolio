@@ -26,23 +26,30 @@
 	max-width: 800px;
 }
 
+.featured__work {
+	max-width: 800px;
+	height: 100%;
+}
+
 .apps {
 	float: left;
 	list-style-type: none;
 	display: flex;
-	flex-wrap: nowrap;
-	padding: none;
-	margin: none;
+	padding: 0;
 }
 
 .photos {
 	height: auto;
-	max-width: 260px;
-	display: calc((100% - 20px)/3);
+	max-width: 235px;
+	display: calc((100% - 70px)/3);
+}
+
+.item__one, .item__two {
+	margin-right: 10px;
 }
 
 .item__three {
-	margin-right: none;
+	margin-right: 0;
 }
 
 /* Framework */
