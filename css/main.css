@@ -11,6 +11,10 @@
 	margin: 0 auto;
 }
 
+.header__logo {
+	margin-top: 1em;
+}
+
 .header__inner {
 	max-width: 75px;
 }
@@ -18,8 +22,20 @@
 .header__outer {
 	text-transform: uppercase;
 	text-align: right;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Quicksand', sans-serif;
+	color: #2D3C49;
 }
+
+h1 {
+	font-size: 3em;
+	font-weight: 300;
+	margin: 0;
+}
+
+h2.header__subtitle {
+	margin: 0;
+}
+
 
 hr {
 	height: 5px;
