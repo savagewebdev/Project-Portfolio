@@ -56,7 +56,6 @@ hr {
 }
 
 .apps {
-	float: left;
 	list-style-type: none;
 	display: flex;
 	padding: 0;
@@ -64,15 +63,13 @@ hr {
 	max-width: 850px;
 }
 
-.photos {
+#photos {
+	display: calc((100% - 20px) /3);
 	height: auto;
-	max-width: 268.33px;
-	display: calc((100% - 10px)/3);
+	max-width: 266.33px;
 	float: left;
-}
-
-.item__one, .item__two {
-	margin-right: 15px;
+	margin-right: 10px;
+	flex-grow: 1;
 }
 
 .item__three {
