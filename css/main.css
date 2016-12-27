@@ -58,16 +58,22 @@ hr {
 .apps {
 	list-style-type: none;
 	padding: 0;
-	margin: 0;
+	margin: 0 auto;
 	max-width: 850px;
+	display: flex;
+}
+
+.list {
+	text-align: center;
+	margin: 0 auto;
 }
 
 .item__one, .item__two, .item__three {
-	width: 266.33px;
+	max-width: 260.33px;
 	height: auto;
-	display: calc((100% - 20px)/3);
 	float: left;
-	margin-right: 10px;
+	margin-right: 20px;
+	
 }
 
 .item__three {
