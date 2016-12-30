@@ -1,0 +1,23 @@
+{
+  "name": "Project-Portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/savagewebdev/Project-Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/savagewebdev/Project-Portfolio/issues"
+  },
+  "homepage": "https://github.com/savagewebdev/Project-Portfolio#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  }
+}
