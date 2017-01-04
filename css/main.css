@@ -16,7 +16,7 @@
 }
 
 .header__inner {
-	max-width: 75px;
+	max-width: 60px;
 }
 
 .header__outer {
@@ -36,13 +36,24 @@ h1 {
 h2 {
 	margin: 0;
 	font-weight: 500;
-	font-size: 1.3em;
+	font-size: 1.1em;
+}
+
+h3 {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+	color: #7D97AD;
+	font-size: 2em;
+	margin-bottom: 10px;
+	margin-left: 15px;
 }
 
 
 hr {
-	height: 5px;
+	height: 3px;
 	border:	none;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .markup {
@@ -61,19 +72,20 @@ hr {
 	margin: 0 auto;
 	max-width: 850px;
 	display: flex;
+	float: left;
+	width: calc((100% - 20px)/3);
 }
 
 .list {
 	text-align: center;
-	margin: 0 auto;
+	margin: 0;
+
 }
 
 .item__one, .item__two, .item__three {
-	max-width: 260.33px;
 	height: auto;
 	float: left;
-	margin-right: 20px;
-	
+	margin-right: 26px;
 }
 
 .item__three {
