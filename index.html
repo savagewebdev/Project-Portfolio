@@ -4,44 +4,53 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" href="css/main.css">
 		<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
 		<title>Project: Portfolio</title>
 	</head>
-	
 	<body>
 		<div class="container">
 			<div class="grid">
-				<header class="heading">
+				<header>
 					<div class="row">
 						<div class="col-6">
-							<section class="header__inner">
-								<img class="header__logo" src="images/udacity_logo.svg" alt="The Udacity logo">
+							<section class="header-inner">
+								<img class="header-logo" src="images/udacity_logo.svg" alt="The Udacity logo">
 							</section>
 						</div>
 						<div class="col-6">
-							<section class="header__outer">
-								<h1 class="header__title">Jane Doette</h1>
-								<h2 class="header__subtitle">Front-end Ninja</h2>
+							<section class="header-outer">
+								<h1>Jane Doette</h1>
+								<h2>Front-end Ninja</h2>
 							</section>
 						</div>
 					</div>
-					<hr style="background-color: #7D97AD">
+					<hr>
 				</header>
-			
 			<main>
-				<img src="images/markup.jpg" class="markup" alt="markup">
+				<div class="row">
+					<div class="col-12">
+						<section class="main-picture">
+							<img src="images/markup-850x354_apps.jpg" class="markup" alt="HTML markup">
+						</section>
+					</div>
+				</div>
 			</main>
 				<footer>
 					<div class="row">
-						<section class="featured__work">
-							<h3 class="featuring">Featured Work</h3>
-							<menu class="apps" type="list">
-								<li class="list"><img src="images/appify-266_apps.jpg" class="item__one" alt="Appify"><h3 class="listing">Appify</h3></li>
-								<li class="list"><img src="images/sunflower-266_apps.jpg" class="item__two" alt="Sunflower"><h3 class="listing">Sunflower</h3></li>
-								<li class="list"><img src="images/bokeh-266_apps.jpg" class="item__three" alt="Bokeh"><h3 class="listing">Bokeh</h3></li>
-							</menu>
-						</section>
+						<div class="col-12">
+							<section class="featured-work">
+								<h3>Featured Work</h3>
+								<ul>
+									<li><img src="images/appify-266_apps.jpg" class="picture-one" alt="Appify"><h3 class="name-one">Appify</h3>
+									<h4 class="url-one">https://github.com/udacity/Appify/<h4></li>
+									<li><img src="images/sunflower-266_apps.jpg" class="picture-two" alt="Sunflower"><h3 class="name-two">Sunflower</h3>
+									<h4 class="url-two">https://github.com/udacity/Sunflower/</h4></li>
+									<li><img src="images/bokeh-266_apps.jpg" class="picture-three" alt="Bokeh"><h3 class="name-three">Bokeh</h3>
+									<h4 class="url-three">https://github.com/udacity/Bokeh/</h4></li>
+								</ul>
+							</section>
+						</div>
 					</div>
 				</footer>
 			</div>

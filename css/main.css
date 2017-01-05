@@ -2,29 +2,25 @@
 	-webkit-box-sizing: border-box; 
 	-moz-box-sizing: border-box; 
 	-ms-box-sizing: border-box; 
-	box-sizing: border-box; /* This makes box changes work for both border & padding properties */
+	box-sizing: border-box; 
 }	
 
-.container {
-	max-width: 850px;
-	justify-content: center;
-	margin: 0 auto;
-}
+/* Header */
 
-.header__logo {
+.header-logo {
 	margin-top: 1em;
 }
 
-.header__inner {
+.header-inner {
 	max-width: 60px;
 }
 
-.header__outer {
+.header-outer {
 	margin-right: 10px;
 	text-transform: uppercase;
 	text-align: right;
 	font-family: 'Quicksand', sans-serif;
-	color: #2D3C49;
+	color: #2d3c49;
 }
 
 h1 {
@@ -39,34 +35,29 @@ h2 {
 	font-size: 1.1em;
 }
 
-.featuring {
-	font-family: 'Quicksand', sans-serif;
-	font-weight: 300;
-	color: #7D97AD;
-	font-size: 2em;
-	margin-bottom: 10px;
-	margin-left: 15px;
-}
-
-
 hr {
 	height: 3px;
+	background-color: #7d97ad;
 	border:	none;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
+
+/* Main */
 
 .markup {
 	height: auto;
 	max-width: 850px;
 }
 
-.featured__work {
+.featured-work {
 	max-width: 850px;
 	height: 100%;
 }
 
-.apps {
+/* Footer */
+
+ul {
 	list-style-type: none;
 	padding: 0;
 	margin: 0 auto;
@@ -76,33 +67,58 @@ hr {
 	width: calc((100% - 20px)/3);
 }
 
-.list {
+li {
 	text-align: center;
 	margin: 0;
 }
 
-.listing {
+h3 {
 	font-family: 'Quicksand', sans-serif;
-	color: #2D3C49;
+	font-weight: 300;
+	color: #7d97ad;
+	font-size: 2em;
+	margin-bottom: 10px;
+	margin-left: 15px;
+}
+
+h4 {
+	color: #2d3c49;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 0.7em;
+	font-weight: 400;
+	margin-top: 5px;
+}
+
+.name-one, .name-two, .name-three {
+	font-family: 'Quicksand', sans-serif;
+	color: #2d3c49;
 	text-transform: uppercase;
 	font-weight: 400;
 	font-size: 2em;
+	margin: 0;
 }
 
-.item__one, .item__two, .item__three {
+.name-one, .name-two, .url-one, .url-two {
+	padding-right: 26px;
+}
+
+.picture-one, .picture-two, .picture-three {
 	height: auto;
 	float: left;
 	margin-right: 26px;
+	padding-bottom: 10px;
 }
 
-.item__three {
+.picture-three {
 	margin-right: 0;
 }
 
 /* Framework */
 
-.grid {
-	margin: 0 auto; 
+.container {
+	max-width: 850px;
+	justify-content: center;
+	margin: 0 auto;
 }
 
 .row {
@@ -157,7 +173,3 @@ hr {
 .col-12 {
 	width: 100%;
 }
-
-/* Responsive Design */
-
-
