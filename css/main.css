@@ -5,6 +5,14 @@
 	box-sizing: border-box; 
 }	
 
+/* Responsive Design */
+
+@media only screen and (max-width: 500px) {
+	.col-6 {
+		width: 100%;
+	  }
+}
+
 /* Header */
 
 .header-logo {
@@ -116,9 +124,11 @@ h4 {
 /* Framework */
 
 .container {
-	max-width: 850px;
+/*	max-width: 850px;*/
 	justify-content: center;
 	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .row {
@@ -173,7 +183,3 @@ h4 {
 .col-12 {
 	width: 100%;
 }
-
-/* Responsive Design */
-
-@media
