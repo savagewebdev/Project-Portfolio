@@ -11,7 +11,25 @@
 	.col-6 {
 		width: 100%;
 	  }
+	ul {
+		max-width: 850px;
+		display: flexbox;
+		flex-wrap: wrap;
+		width: 100%;
+		}
 }
+
+@media only screen and (max-width: 800px) {
+	
+}
+
+@media only screen and (min-width: 801px) {
+	ul {
+		float: left;
+		width: calc((100% - 20px)/3);
+	}
+}
+
 
 /* Header */
 
@@ -71,8 +89,6 @@ ul {
 	margin: 0 auto;
 	max-width: 850px;
 	display: flex;
-	float: left;
-	width: calc((100% - 20px)/3);
 }
 
 li {
@@ -133,7 +149,6 @@ h4 {
 
 .row {
 	width: 100%; 
-	display: flex;
 }
 
 .col-1 {
