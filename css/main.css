@@ -8,9 +8,14 @@
 /* Responsive Design */
 
 @media only screen and (max-width: 500px) {
+	.container {
+		width: 500px;
+	}
+	
 	.col-6 {
 		width: 100%;
 	  }
+	
 	ul {
 		max-width: 850px;
 		display: flexbox;
@@ -72,8 +77,9 @@ hr {
 /* Main */
 
 .markup {
-	height: auto;
-	max-width: 850px;
+	
+/*	height: auto;*/
+/*	max-width: 850px;*/
 }
 
 .featured-work {
