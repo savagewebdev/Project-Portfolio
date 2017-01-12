@@ -40,7 +40,13 @@
 				<div class="row">
 					<div class="col-12">
 						<section class="main-picture">
-							<img src="images/mainsmall.jpg" srcset="images/mainsmall.jpg 500w, images/mainbig.jpg 1000w" class="markup" alt="spider web">
+							<picture> 
+								<source media="(max-width: 450px)"
+									srcset="images/mainsmall.jpg 300w">
+								<source	media="(min-width: 450px)"
+									srcset="images/mainbig.jpg 2000w">
+								<img src="images/mainsmall.jpg" alt="Spider">
+							</picture>
 						</section>
 					</div>
 				</div>
