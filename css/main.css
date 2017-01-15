@@ -8,8 +8,10 @@
 /* Responsive Design */
 
 @media only screen and (max-width: 500px) {
-	.container {
+	body {
 		width: 500px;
+		justify-content: center;
+		margin: 0 auto;
 	}
 	
 	.col-6 {
@@ -22,13 +24,22 @@
 		flex-wrap: wrap;
 		width: 100%;
 		}
+		
+	.spider {
+		width: 50vw;
+	}
 }
 
-@media only screen and (max-width: 800px) {
-	
+@media only screen and (min-width: 800px) {
+	.spider {
+		width: 100vw;
+	}
+	ul {
+		width: calc((100% - 20px)/3);
+	}
 }
 
-@media only screen and (min-width: 801px) {
+@media only screen and (min-width: 1000px) {
 	ul {
 		float: left;
 		width: calc((100% - 20px)/3);
@@ -146,7 +157,6 @@ h4 {
 /* Framework */
 
 .container {
-/*	max-width: 850px;*/
 	justify-content: center;
 	margin: 0 auto;
 	display: flex;
