@@ -15,6 +15,10 @@
 		margin: 0 auto;
 	}
 	
+	.header-row {
+/*		position: fixed;*/
+	}
+	
 	.header-inner {
 		position: absolute;
 		left: -9999px;
@@ -29,8 +33,9 @@
 		width: 500px;
 		display: flex;
 		flex-wrap: wrap;
+		justify-content: center;
+		align-items: flex-end;
 		text-align: center;
-		flex-direction: column;
 	}
 		
 	.spider {
@@ -40,6 +45,8 @@
 	footer {
 		text-align: center;
 	}
+	
+	
 	
 /*	To Do: Select li elements to be centered and modified */
 	
@@ -52,11 +59,13 @@
 	}
 	
 	.header-inner {
-		display: static;
-/*		margin-right: 0;*/
+		position: static;
+		left: 0px;
+		margin-right: 0;
 	}
 	
 	.header-outer {
+		width: 50%;
 		float: right;
 		margin-right: 10px;
 		text-align: right;
@@ -79,7 +88,7 @@
 	}
 	
 	.header-inner {
-		display: block;
+		position: static;
 		left: 0px;
 		margin-right: 0;
 	}
@@ -88,6 +97,10 @@
 		float: right;
 		margin-right: 10px;
 		text-align: right;
+	}
+	
+	.picture-three {
+		margin-right: 0;
 	}
 	
 }
@@ -102,6 +115,10 @@
 	.header-outer {
 		margin-right: 10px;
 		text-align: right;
+	}
+	
+	.picture-three {
+		margin-right: 0;
 	}
 	
 }
@@ -208,21 +225,22 @@ h4 {
 	padding-bottom: 10px;
 }
 
-.picture-three {
-	margin-right: 0;
-}
-
 /* Framework */
 
 .container {
+/*	max-width: 800px;*/
 	justify-content: center;
 	margin: 0 auto;
 	display: flex;
 	flex-wrap: wrap;
 }
 
-.row {
+.header-row {
 	width: 100%; 
+}
+
+.row {
+	width: 100%;
 }
 
 .col-1 {
