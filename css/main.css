@@ -62,7 +62,7 @@ body {
 	}
 	
 	.header-row {
-		max-width: 850px;
+		width: 100%;
 	}
 	
 	.col-12 {
@@ -70,15 +70,22 @@ body {
 	}
 	
 	.header-inner {
-		position: static;
+		position: initial;
 		width: 50%;
 		margin-right: 0;
 	}
 	
 	.header-outer {
 		width: 50%;
+		position: absolute;
+		float: right;
 		margin-right: 10px;
 		text-align: right;
+	}
+	
+	ul {
+		width: calc((100% - 20px)/3);
+		position: absolute;
 	}
 	
 }
