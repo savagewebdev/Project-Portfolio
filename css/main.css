@@ -39,10 +39,6 @@ body {
 		align-items: flex-end;
 		text-align: center;
 	}
-		
-	.spider {
-		width: 50vw;
-	}
 	
 	footer {
 		text-align: center;
@@ -61,16 +57,12 @@ body {
 		max-width: 850px;
 	}
 	
-	.header-row {
-		width: 100%;
-	}
-	
 	.col-12 {
 		display: flex;
 	}
 	
 	.header-inner {
-		position: initial;
+		position: static;
 		width: 50%;
 		margin-right: 0;
 	}
@@ -83,6 +75,10 @@ body {
 		text-align: right;
 	}
 	
+	.main-picture {
+		margin: 0 auto;
+	}
+	
 	ul {
 		width: calc((100% - 20px)/3);
 		position: absolute;
@@ -91,10 +87,7 @@ body {
 }
 
 @media only screen and (max-width: 850px) {
-	
-	.spider {
-/*		width: 850px;*/
-	}
+
 	
 	ul {
 		width: calc((100% - 20px)/3);
@@ -181,12 +174,6 @@ hr {
 }
 
 /* Main */
-
-.markup {
-	
-/*	height: auto;*/
-/*	max-width: 850px;*/
-}
 
 .featured-work {
 	max-width: 850px;
