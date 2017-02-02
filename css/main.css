@@ -79,6 +79,10 @@ body {
 		margin: 0 auto;
 	}
 	
+	.spider {
+		max-width: 850px;
+	}
+	
 	ul {
 		width: calc((100% - 20px)/3);
 		position: absolute;
@@ -226,10 +230,11 @@ h4 {
 }
 
 .picture-one, .picture-two, .picture-three {
-	height: auto;
+	max-height: 200px;
 	float: left;
 	margin-right: 26px;
 	padding-bottom: 10px;
+	max-width: 266px;
 }
 
 /* Framework */
