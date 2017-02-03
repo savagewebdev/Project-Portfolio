@@ -32,8 +32,6 @@ body {
 	}
 	
 	ul {
-		width: 500px;
-		display: flex;
 		flex-wrap: wrap;
 		justify-content: center;
 		align-items: flex-end;
@@ -45,10 +43,6 @@ body {
 	}
 	
 }
-	
-/*	To Do: Select li elements to be centered and modified */
-	
-
 
 @media only screen and (min-width: 501px) {
 	
@@ -157,6 +151,7 @@ body {
 	text-transform: uppercase;
 	font-family: 'Quicksand', sans-serif;
 	color: #2d3c49;
+	text-align: center;
 }
 
 h1 {
