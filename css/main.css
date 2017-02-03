@@ -70,6 +70,8 @@ body {
 	.header-outer {
 		width: 50%;
 		position: absolute;
+		top: 0;
+		right: 0;
 		float: right;
 		margin-right: 10px;
 		text-align: right;
@@ -241,6 +243,11 @@ h4 {
 
 .header-row {
 	width: 100%; 
+}
+
+.col-12h {
+	width: 100%;
+	position: relative;
 }
 
 .row {
