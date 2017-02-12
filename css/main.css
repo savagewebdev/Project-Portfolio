@@ -76,6 +76,7 @@ h3 {
 	color: #7d97ad;
 	font-size: 2em;
 	margin-bottom: 10px;
+	margin-left: 15px;
 }
 
 p {
@@ -92,11 +93,11 @@ p {
 	text-transform: uppercase;
 	font-weight: 400;
 	font-size: 2em;
-	margin: 0;
+	margin-bottom: 0;
 }
 
 .name-one, .name-two, .name-three, .url-one, .url-two, .url-three {
-	padding-right: 26px;
+	padding-right: 20px;
 }
 
 .picture-one, .picture-two, .picture-three {
@@ -125,7 +126,6 @@ p {
 	
 	.header-outer {
 		justify-content: center;
-		text-align: center;
 		width: 100%;
 	}
 	
@@ -148,10 +148,6 @@ p {
 	
 	h3 {
 		text-align: center;
-	}
-	
-	.name-three {
-		padding-right: 26px;
 	}
 	
 }
@@ -188,10 +184,6 @@ p {
 	
 	.main-picture {
 		margin: 0 auto;
-	}
-	
-	h3 {
-		margin-left: 15px;
 	}
 	
 	.spider {
