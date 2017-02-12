@@ -161,6 +161,10 @@ p {
 		max-width: 850px;
 	}
 	
+	h1 {
+		letter-spacing: 1.5px;
+	}
+	
 	.col-12 {
 		display: flex;
 	}
